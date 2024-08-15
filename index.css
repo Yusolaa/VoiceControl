@@ -1,0 +1,90 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+#microphone {
+  position: fixed;
+  right: 0;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #7c7c7cce;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#microphone .active {
+  color: rgb(19, 7, 182);
+}
+
+@media (min-width: 768px) {
+  #microphone {
+    right: 50px;
+  }
+}
+
+.mic {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+article {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+article p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
